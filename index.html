@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Osamu HASEGAWA">
+
+    <link rel="stylesheet" href="main.css">
+
+    <meta name="keywords" content="javascript, if，for">
+
+    <title>じゃんけん課題</title>
+</head>
+
+<body>
+
+    <main>
+        <h1 id="top">あっち向いてホイゲーム</h1>
+
+        <h3>※勝った時だけあっち向いてホイをしてください</h3>
+        
+        <div>
+            <p id="saisyo">最初はグーじゃんけん</p>
+            
+            <button type="button" onclick="janken(1)">グー</button>
+            <button type="button" onclick="janken(2)">チョキ</button>
+            <button type="button" onclick="janken(3)">パー</button>
+
+            <p id="kekka"></p>
+
+
+        
+
+         <a href="#kotti">じゃんけんに勝ったら押してね</a>
+
+         <h2>じゃんけんに勝ったらあっち向いてホイに進みます</h2>
+
+            <p id="kotti">あっち向いてホイだよ</p>
+
+            <p id="attimuite">あっち向いて</p>
+            
+            <button type="button" onclick="attimuite(4)">⬆︎</button>
+            <button type="button" onclick="attimuite(5)">➡︎</button>
+            <button type="button" onclick="attimuite(6)">⬅︎</button>
+            <button type="button" onclick="attimuite(7)">⬇︎</button>
+
+            <p id="hoi"></p>
+
+        </div>
+
+        <a href="#top"><p>じゃんけんに戻る</p></a>
+
+    </main>
+
+    <style>
+        #saisyo{
+            font-size: 2rem;
+
+            color: red;
+
+            margin: 30px 0;
+        }
+
+    </style>
+
+    <style>
+        #attimuite{
+            font-size: 2rem;
+
+            color: orange;
+
+            margin: 30px 0;
+        }
+    </style>
+
+
+
+    
+    <script src="js.main.js"></script>
+
+    
+</body>
